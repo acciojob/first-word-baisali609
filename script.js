@@ -1,9 +1,7 @@
 function firstWord(s) {
   // your code here
- s = s.trim(); 
-	let index = s.indexOf(" "); 
-    
-    return index === -1 ? s : s.substring(0, index);
+let str = s.trim();
+	str.split(" ");
 	
 }
 console.log(firstWord("see and stop"));  
