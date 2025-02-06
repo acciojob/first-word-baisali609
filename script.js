@@ -1,7 +1,9 @@
 function firstWord(s) {
   // your code here
-let str = s.trim();
-	str.split(" ");
+ let str = s.trim(); // Remove leading and trailing spaces
+    let words = str.split(" "); // Split by space
+
+    return words[0];
 	
 }
 console.log(firstWord("see and stop"));  
